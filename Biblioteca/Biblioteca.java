@@ -13,11 +13,11 @@ public class Biblioteca {
     public List<Livro> getLivros() {
         return livro;
     }
-    public void setLivros(List<Livro> livros) {
-        this.livros = livros;
+    public void setLivros(List<Livro> livro) {
+        this.livro = livro;
     }
-    public void addLivro(){
-        livro.add(livro);
+    public void addLivro(Livro livro){
+        Livro.add(livro);
     }
     public List<Funcionario> getFuncionario() {
         return funcionario;
@@ -25,10 +25,10 @@ public class Biblioteca {
     public void setFuncionario(List<Funcionario> funcionario) {
         this.funcionario = funcionario;
     }
-    public void addFuncionario(){
-        funcionario.add(funcionario);
+    public void addFuncionario(Funcionario funcionario){
+        Funcionario.add(funcionario);
     }
-    public getNome() {
+    public String getNome() {
         return nome;
     }
     public void setNome(String nome) {
@@ -49,8 +49,8 @@ public class Biblioteca {
     }
     public void mostrarFuncionarios() {
         for(int i=0; i<funcionario.size(); i++) {
-            System.out.println(livro.get(i).getNome());
-            System.out.println(livro.get(i).getCpf());
+            System.out.println(funcionario.get(i).getNome());
+            System.out.println(funcionario.get(i).getCpf());
         }
     }
 }

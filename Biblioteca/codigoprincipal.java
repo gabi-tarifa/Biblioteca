@@ -1,7 +1,8 @@
 public class codigoprincipal {
     public static void main(String[] args) {
         Biblioteca biblioteca = new Biblioteca("A culturada", new Dono("Carlos Moraes ", "423-937-048-03"));
-        System.out.println(biblioteca.getDono().getNome() + biblioteca.getDono.getCpf());
+        System.out.println(biblioteca.getNome());
+        System.out.println(biblioteca.getDono().getNome() + biblioteca.getDono().getCpf());
 
         biblioteca.addLivro(new Livro("A Lista Negra", "Jennifer Brown", 2006));
         biblioteca.addLivro(new Livro("Diário de um suicída", "Stephan Townie", 2015));

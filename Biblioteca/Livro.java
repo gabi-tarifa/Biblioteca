@@ -12,19 +12,22 @@ public class Livro {
     public void setNome(String nome){
         this.nome = nome;
     }
-    public getNome(){
+    public String getNome(){
         return nome;
     }
     public void setAutor(String autor) {
         this.autor = autor;
     }
-    public getCpf() {
+    public String getAutor() {
         return autor;
     }
     public void setAno(int ano) {
         this.ano = ano;
     }
-    public getAno() {
+    public int getAno() {
         return ano;
+    }
+
+    public static void add(Livro livro) {
     }
 }

@@ -10,14 +10,16 @@ public class Funcionario {
     public void setNome(String nome){
         this.nome = nome;
     }
-    public getNome(){
+    public String getNome(){
         return nome;
     }
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    public getCpf() {
+    public String getCpf() {
         return cpf;
+    }
+    public static void add(Funcionario funcionario) {
     }
 
 }
